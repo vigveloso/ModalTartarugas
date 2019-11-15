@@ -1,0 +1,26 @@
+.imgbanner{
+    width: 100%;
+}
+
+#banner{
+    width: 100%; 
+    height: 70vw; /*definindo altura da section banner*/
+    background-image: url(../images/tartaruga-bebe.webp); /*IMPORTANDO FOTO para que o botao fique em cima*/
+    background-repeat: no-repeat; /*fazer com que a foto não se repita(a
+                                tag da linha acima dá efeito de repetição*/
+    background-size: cover; /* torna a foto do tamanho da capa: banner */  
+    text-align: center; /*alinhando o texto que está no banner, no caso o botão,
+                        no centro da tela*/
+}
+
+button{
+    margin-top: 25vw; /* fazendo o botão descer */
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;    
+    border-radius: 1em;
+    width: 15vw;
+    height: 4vw;
+    cursor: pointer;
+    background-color: aqua;
+    border: aqua;
+}
